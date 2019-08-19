@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Setting"
+    android:background="#000000">
+
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/coloro1"
+        android:gravity="center"
+        android:layout_marginTop="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تغییر اندازه نوشته ها"
+            android:id="@+id/txtname"
+            android:background="@color/coloro1" />
+
+        <SeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:visibility="visible"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="100dp"
+            android:padding="10dp"
+            android:background="@drawable/shape3" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="false"
+            android:layout_alignRight="@+id/textView0"
+            android:layout_alignEnd="@+id/textView0">
+
+            <Button
+                android:id="@+id/btnSave0"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ذخیره"
+
+                android:background="@drawable/shape2"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp" />
+
+            <Button
+                android:id="@+id/btnscancel0"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="بازگشت"
+                android:background="@drawable/shape2"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

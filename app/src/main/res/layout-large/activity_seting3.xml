@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmad.hka_1.seting2"
+    android:id="@+id/seting"
+    android:background="#000000">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/tolbar1"
+        android:background="@color/coloro1"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+        </RelativeLayout>
+
+
+
+    </android.support.v7.widget.Toolbar>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:text="تنظیمات"
+        android:background="@color/coloro1"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/pagename" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView4"
+        android:layout_below="@+id/tolbar1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/tolbar1"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:layout_marginBottom="20px">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/editText6"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:background="@drawable/shape1"
+                    android:numeric="integer" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="شماره سیمکارت"
+                    android:id="@+id/textView8"
+                    android:textColor="#ffbb00"
+                    android:layout_weight="1"
+                    android:gravity="right" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:layout_marginBottom="20px" >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/editText9"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:background="@drawable/shape1"
+                    android:password="true"
+                    android:numeric="integer" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="رمز سیستم"
+                    android:id="@+id/textView11"
+                    android:textColor="#ffbb00"
+                    android:layout_weight="1"
+                    android:gravity="right" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:layout_marginBottom="20px" >
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp">
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton4"
+                        android:checked="true"
+                        android:layout_weight="1"
+                        android:text="اینترنت"
+                        android:textColor="#ffbb00"
+                        android:enabled="false"
+                        android:alpha="0.5" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton5"
+                        android:checked="true"
+                        android:layout_weight="1"
+                        android:text="پیامک"
+                        android:textColor="#ffbb00"
+                        android:enabled="true"
+                        android:clickable="true" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton6"
+                        android:checked="true"
+                        android:layout_weight="1"
+                        android:text="شبکه"
+                        android:textColor="#ffbb00"
+                        android:layout_gravity="right"
+                        android:enabled="false"
+                        android:alpha="0.5" />
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="نوع ارتباط"
+                    android:id="@+id/textView12"
+                    android:textColor="#ffbb00"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:layout_gravity="center_horizontal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="3">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="تغییر رمز ورود برنامه"
+                    android:id="@+id/button7"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape2"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="تغییر سایز فونت"
+                    android:id="@+id/button25"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape2"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="ذخیره"
+                    android:id="@+id/button22"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape2"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

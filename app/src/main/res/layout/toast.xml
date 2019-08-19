@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/coloro1">
+
+    <TextView
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="شما برای اولین بار وارد برنامه شده اید.لطفا یک رمز عبور به دلخواه وارد نمایید."
+        android:alpha="1"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:background="#bdbdbd" />
+
+</LinearLayout>

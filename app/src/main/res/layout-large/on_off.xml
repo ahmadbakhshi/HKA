@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    >
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:padding="10dp"
+        android:textSize="17dp"
+        android:background="@color/coloro1"
+        android:id="@+id/txtmsg" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnoff"
+            android:text="خاموش"
+            android:textSize="15dp"
+            android:background="@drawable/shape3"
+            android:padding="10dp"
+            android:textColor="@color/coloro1"
+            />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnon"
+            android:text="روشن"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:background="@drawable/shape3"
+            android:textColor="@color/coloro1"
+        />
+    </LinearLayout>
+
+
+</LinearLayout>

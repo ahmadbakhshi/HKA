@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:installLocation="preferExternal"
+    package="com.example.ahmad.hka_1">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="hka"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".loading">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".firstpage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".suport"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".seting3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".senario3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".change_pass"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login"
+            android:screenOrientation="portrait" />
+        <activity android:name=".a1" />
+        <activity
+            android:name=".icon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".code_senario"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".firstpage2"
+            android:label="@string/title_activity_firstpage2"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+    </application>
+
+</manifest>

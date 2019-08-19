@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.ahmad.hka_1.change_pass">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:weightSum="4"
+        android:layout_margin="10dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/coloro1"
+            android:layout_marginBottom="15dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/txtname"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:layout_marginBottom="20px">
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:id="@+id/editText3"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/shape1"
+                android:password="true"
+                android:numeric="integer"
+                android:textColor="#000000"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="رمز عبور فعلی برنامه"
+                android:id="@+id/textView2"
+                android:textColor="#ffbb00"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:textSize="25dp"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:layout_marginBottom="20px">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:id="@+id/editText2"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/shape1"
+                android:password="true"
+                android:numeric="integer"
+                android:textColor="#000000"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="رمز عبور جدید"
+                android:id="@+id/textView"
+                android:textColor="#ffbb00"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:textSize="25dp"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:layout_marginBottom="20px">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:id="@+id/editText4"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/shape1"
+                android:password="true"
+                android:numeric="integer"
+                android:textColor="#000000"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="تکرار رمز عبور جدید"
+                android:id="@+id/textView3"
+                android:textColor="#ffbb00"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:textSize="25dp"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="رمز ورود به برنامه حذف شود؟"
+            android:id="@+id/checkBox"
+            android:textColor="@color/coloro1"
+            android:typeface="sans"
+            android:breakStrategy="balanced"
+            android:layout_marginBottom="20px"
+            android:checked="false"
+            android:enabled="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:background="#474646"
+            android:paddingRight="10dp"
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="2" >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:text="ذخیره"
+                android:id="@+id/button4"
+                android:layout_weight="1"
+                android:background="@drawable/shape2"
+                android:textSize="20dp"
+                android:layout_marginRight="2.5dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:text="بازگشت"
+                android:id="@+id/button3"
+                android:layout_weight="1"
+                android:background="@drawable/shape2"
+                android:textSize="20dp"
+                android:layout_marginLeft="2.5dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

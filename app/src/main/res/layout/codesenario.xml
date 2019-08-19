@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    tools:context="com.example.ahmad.hka_1.add1"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="12">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_centerVertical="true"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/coloro1"
+            android:layout_marginBottom="15dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:id="@+id/txtname"
+            android:text="کد سناریوها" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="187.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="5dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:weightSum="5">
+
+                    <EditText
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/code1"
+                        android:background="@drawable/shape1"
+                        android:numeric="integer"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="اعلام حریق"
+                        android:id="@+id/textView17"
+                        android:textColor="@color/coloro1"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="right"
+                        android:paddingRight="15dp"
+                        android:layout_weight="4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:weightSum="5">
+
+                    <EditText
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/code2"
+                        android:background="@drawable/shape1"
+                        android:numeric="integer"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="هشدار با تلفن"
+                        android:id="@+id/textView18"
+                        android:textColor="@color/coloro1"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="right"
+                        android:paddingRight="15dp"
+                        android:layout_weight="4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:weightSum="5">
+
+                    <EditText
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/code3"
+                        android:background="@drawable/shape1"
+                        android:numeric="integer"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="هشدار با پیامک"
+                        android:id="@+id/textView19"
+                        android:textColor="@color/coloro1"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="right"
+                        android:paddingRight="15dp"
+                        android:layout_weight="4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:weightSum="5">
+
+                    <EditText
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/code4"
+                        android:background="@drawable/shape1"
+                        android:numeric="integer"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="دوربین و dvr"
+                        android:id="@+id/textView20"
+                        android:textColor="@color/coloro1"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="right"
+                        android:paddingRight="15dp"
+                        android:layout_weight="4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:weightSum="5">
+
+                    <EditText
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/code5"
+                        android:background="@drawable/shape1"
+                        android:numeric="integer"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="اعلام نشت گاز"
+                        android:id="@+id/textView21"
+                        android:textColor="@color/coloro1"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="right"
+                        android:paddingRight="15dp"
+                        android:layout_weight="4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:weightSum="5">
+
+                    <EditText
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/code6"
+                        android:background="@drawable/shape1"
+                        android:numeric="integer"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="سناریو 1"
+                        android:id="@+id/textView22"
+                        android:textColor="@color/coloro1"
+                        android:paddingRight="15dp"
+                        android:layout_weight="4" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="187.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:weightSum="5">
+
+                    <EditText
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/code7"
+                        android:background="@drawable/shape1"
+                        android:numeric="integer"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="اعلام سرقت"
+                        android:id="@+id/textView7"
+                        android:textColor="@color/coloro1"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="right"
+                        android:paddingRight="15dp"
+                        android:layout_weight="4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:weightSum="5">
+
+                    <EditText
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/code8"
+                        android:background="@drawable/shape1"
+                        android:numeric="integer"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="عدم حضور"
+                        android:id="@+id/textView9"
+                        android:textColor="@color/coloro1"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="right"
+                        android:paddingRight="15dp"
+                        android:layout_weight="4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:weightSum="5">
+
+                    <EditText
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/code9"
+                        android:background="@drawable/shape1"
+                        android:numeric="integer"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="حضور مجازی"
+                        android:id="@+id/textView10"
+                        android:textColor="@color/coloro1"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="right"
+                        android:paddingRight="15dp"
+                        android:layout_weight="4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:weightSum="5">
+
+                    <EditText
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/code10"
+                        android:background="@drawable/shape1"
+                        android:numeric="integer"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="تنها در خانه"
+                        android:id="@+id/textView13"
+                        android:textColor="@color/coloro1"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="right"
+                        android:paddingRight="15dp"
+                        android:layout_weight="4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:weightSum="5">
+
+                    <EditText
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/code11"
+                        android:background="@drawable/shape1"
+                        android:numeric="integer"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="آژیر خطر"
+                        android:id="@+id/textView14"
+                        android:textColor="@color/coloro1"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="right"
+                        android:paddingRight="15dp"
+                        android:layout_weight="4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:weightSum="5">
+
+                    <EditText
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/code12"
+                        android:background="@drawable/shape1"
+                        android:numeric="integer"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="قفل آسانسور"
+                        android:id="@+id/textView15"
+                        android:textColor="@color/coloro1"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="right"
+                        android:paddingRight="15dp"
+                        android:layout_weight="4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:weightSum="5">
+
+                    <EditText
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/code13"
+                        android:background="@drawable/shape1"
+                        android:numeric="integer"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="سناریو 2"
+                        android:id="@+id/textView16"
+                        android:textColor="@color/coloro1"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="right"
+                        android:paddingRight="15dp"
+                        android:layout_weight="4" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ذخیره"
+                android:id="@+id/button1"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:background="@drawable/shape2"
+                android:layout_marginRight="10px" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="بازگشت"
+                android:id="@+id/button2"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:background="@drawable/shape2"
+                android:layout_marginLeft="10px" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

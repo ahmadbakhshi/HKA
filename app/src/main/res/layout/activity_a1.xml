@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.ahmad.hka_1.a1"
+    android:id="@+id/rel_lay">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar6"
+
+        android:background="@color/coloro1"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:text="پذبرایی"
+        android:background="@color/coloro1"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/pagename" />
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar6"
+
+        android:id="@+id/imageView27" />
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridView2"
+        android:layout_centerHorizontal="true"
+        android:numColumns="4"
+        android:layout_below="@+id/toolbar6"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#e11111"
+        android:padding="20dp" />
+
+
+</RelativeLayout>

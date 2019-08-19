@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    tools:context="com.example.ahmad.hka_1.add1"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="12">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_centerVertical="true"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/coloro1"
+            android:layout_marginBottom="15dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:id="@+id/txtname"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:id="@+id/textView45"
+                android:layout_centerInParent="true"
+                android:textColor="@color/coloro1"
+                android:textSize="100dp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageView7000"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="35dp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentEnd="false" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ذخیره"
+                android:id="@+id/button1000"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:background="@drawable/shape2"
+                android:layout_marginRight="10px" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="بازگشت"
+                android:id="@+id/button2000"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:background="@drawable/shape2"
+                android:layout_marginLeft="10px" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

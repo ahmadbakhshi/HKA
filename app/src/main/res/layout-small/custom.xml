@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dip"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/tvLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text Here"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/imgLanguage"
+        android:layout_alignStart="@+id/imgLanguage">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imgLanguage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+    </ImageView>
+
+</RelativeLayout>
